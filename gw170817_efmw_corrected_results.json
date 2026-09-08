@@ -1,0 +1,4386 @@
+{
+  "metadata": {
+    "template": {
+      "approximant": "IMRPhenomPv2_NRTidalv2",
+      "mass1_detector_Msun": 1.4790595881585529,
+      "mass2_detector_Msun": 1.2807580711111188,
+      "spin1z": 0.004953281544706123,
+      "spin2z": 0.0028389018809797492,
+      "lambda1": 269.0083686566036,
+      "lambda2": 445.770904970051,
+      "distance_Mpc": 39.95566849878731,
+      "inclination_rad": 2.5596915857494036,
+      "f_lower_Hz": 30.0,
+      "samples": 271839,
+      "duration_s": 66.366943359375,
+      "peak_offset_s": 66.36669921875
+    },
+    "antenna_fb": {
+      "H1": 0.09821141556578813,
+      "L1": -0.1777574141828418,
+      "V1": 0.059090883018080714
+    },
+    "files": {
+      "H1": {
+        "event": "/workspace/scratch/bdb65b4b645a/gw170817_data/H-H1_GWOSC_4KHZ_R1-1187006835-4096.hdf5",
+        "event_sha256": "167fb934a7468d1879b273e9fd6b2f88be028f1511d5aabf82ed36aeaa74703c",
+        "pre": "/workspace/scratch/bdb65b4b645a/gw170817_data/pre/H-H1_GWOSC_O2_4KHZ_R1-1187004416-4096.hdf5",
+        "pre_sha256": "bf7ce4ca90a708ac1fdbfb8a61ce62cf9d034ed0fe57491121544895e720983a"
+      },
+      "L1": {
+        "event": "/workspace/scratch/bdb65b4b645a/gw170817_data/L-L1_GWOSC_4KHZ_R1-1187006835-4096.full.hdf5",
+        "event_sha256": "667ed4f972e24b456c7abffefe7524395535e92314e6a2314fa2a963abf0bff3",
+        "pre": "/workspace/scratch/bdb65b4b645a/gw170817_data/pre/L-L1_GWOSC_O2_4KHZ_R1-1187004416-4096.hdf5",
+        "pre_sha256": "3eccfad4dc1d2b568e9201238c151d5f03a188e4ac8cf38f43a45b06ea03637d"
+      },
+      "V1": {
+        "event": "/workspace/scratch/bdb65b4b645a/gw170817_data/V-V1_GWOSC_4KHZ_R1-1187006835-4096.full.hdf5",
+        "event_sha256": "7e6bf08ddb9ba1af1415828c96dcaef5046f9d53ec73e707587ed9993cc56ac3",
+        "pre": "/workspace/scratch/bdb65b4b645a/gw170817_data/pre/V-V1_GWOSC_O2_4KHZ_R1-1187004416-4096.hdf5",
+        "pre_sha256": "94891e4cea431e627f197a186f868bbf59c6f4ff2b5a4f037a1447bccdbc1012"
+      }
+    }
+  },
+  "scalar_norms": {
+    "H1": 2.5209619403321097,
+    "L1": 6.86214629193466,
+    "V1": 0.6194856159724044,
+    "network": 7.3367610881718335
+  },
+  "injection_times": {
+    "W0": [
+      1187005546.0899808,
+      1187005567.477723,
+      1187005626.0849025,
+      1187005699.1678424,
+      1187005728.7640955
+    ],
+    "W1": [
+      1187005572.6162963,
+      1187005630.7740316,
+      1187005703.120313,
+      1187005756.9610124,
+      1187005768.8585112
+    ],
+    "W2": [
+      1187005530.7367911,
+      1187005554.8879693,
+      1187005565.4853659,
+      1187005652.3075564,
+      1187005666.4971738
+    ],
+    "W3": [
+      1187005536.0421762,
+      1187005597.0441813,
+      1187005605.1400812,
+      1187005802.4338775,
+      1187005807.5723646
+    ],
+    "W4": [
+      1187005567.5304801,
+      1187005595.4884937,
+      1187005596.408725,
+      1187005607.641414,
+      1187005761.158125
+    ]
+  },
+  "injections": [
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 0,
+      "t_geo": 1187005546.0899808,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.443223011332435,
+        "L1": 29.64314323794477,
+        "V1": 3.9472170983777923
+      },
+      "times": {
+        "H1": 1187005479.7424316,
+        "L1": 1187005479.741211,
+        "V1": 1187005479.8483887
+      },
+      "network_snr": 32.019428738410134,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.09465217590332031,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 0,
+      "t_geo": 1187005546.0899808,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.218917962528654,
+        "L1": 8.87362424048117,
+        "V1": 3.893839010442234
+      },
+      "times": {
+        "H1": 1187005479.3115234,
+        "L1": 1187005479.7407227,
+        "V1": 1187005479.8483887
+      },
+      "network_snr": 10.568938365561781,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 430.5145740509033,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 0,
+      "t_geo": 1187005546.0899808,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.232562185985355,
+        "L1": 4.245682190024708,
+        "V1": 3.878704385516022
+      },
+      "times": {
+        "H1": 1187005479.3115234,
+        "L1": 1187005480.2094727,
+        "V1": 1187005479.8483887
+      },
+      "network_snr": 7.140360468992259,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 899.2645740509033,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 0,
+      "t_geo": 1187005546.0899808,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.2373397042879555,
+        "L1": 4.230358644959074,
+        "V1": 3.873419705762778
+      },
+      "times": {
+        "H1": 1187005479.3115234,
+        "L1": 1187005480.2094727,
+        "V1": 1187005479.8483887
+      },
+      "network_snr": 7.131224456676884,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 899.2645740509033,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 0,
+      "t_geo": 1187005546.0899808,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.238704902904693,
+        "L1": 4.225983309828542,
+        "V1": 3.871910988629673
+      },
+      "times": {
+        "H1": 1187005479.3115234,
+        "L1": 1187005480.2094727,
+        "V1": 1187005479.8483887
+      },
+      "network_snr": 7.128621808788069,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 899.2645740509033,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 1,
+      "t_geo": 1187005567.477723,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 10.505767852150619,
+        "L1": 27.711310893266585,
+        "V1": 4.1177536479199635
+      },
+      "times": {
+        "H1": 1187005501.130371,
+        "L1": 1187005501.1289062,
+        "V1": 1187005500.7636719
+      },
+      "network_snr": 29.920625071871658,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.1366138458251953,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 1,
+      "t_geo": 1187005567.477723,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 3.524677683700762,
+        "L1": 7.051095322203864,
+        "V1": 4.126030224528322
+      },
+      "times": {
+        "H1": 1187005501.6171875,
+        "L1": 1187005501.1293945,
+        "V1": 1187005500.7636719
+      },
+      "network_snr": 8.897495345910816,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 343.23668479919434,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 1,
+      "t_geo": 1187005567.477723,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.709117324439608,
+        "L1": 4.1135417609288005,
+        "V1": 4.128402085426937
+      },
+      "times": {
+        "H1": 1187005501.1403809,
+        "L1": 1187005501.4570312,
+        "V1": 1187005500.7636719
+      },
+      "network_snr": 6.908145983136194,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 670.8734035491943,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 1,
+      "t_geo": 1187005567.477723,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.792068407640271,
+        "L1": 4.131871926086519,
+        "V1": 4.129232982755646
+      },
+      "times": {
+        "H1": 1187005501.1403809,
+        "L1": 1187005501.4570312,
+        "V1": 1187005500.7636719
+      },
+      "network_snr": 6.964388950057458,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 670.8734035491943,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 1,
+      "t_geo": 1187005567.477723,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.815865585225234,
+        "L1": 4.137112608642582,
+        "V1": 4.129470452982182
+      },
+      "times": {
+        "H1": 1187005501.1403809,
+        "L1": 1187005501.4570312,
+        "V1": 1187005500.7636719
+      },
+      "network_snr": 6.980620110215755,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 670.8734035491943,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 2,
+      "t_geo": 1187005626.0849025,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.938136385603093,
+        "L1": 30.057119685690818,
+        "V1": 3.4222084526719407
+      },
+      "times": {
+        "H1": 1187005559.7375488,
+        "L1": 1187005559.736084,
+        "V1": 1187005559.5056152
+      },
+      "network_snr": 32.521701290903316,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.10204315185546875,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 2,
+      "t_geo": 1187005626.0849025,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.294221532271724,
+        "L1": 9.282797019122468,
+        "V1": 3.3875562814747675
+      },
+      "times": {
+        "H1": 1187005559.7375488,
+        "L1": 1187005559.736084,
+        "V1": 1187005559.5056152
+      },
+      "network_snr": 10.774330449109783,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.10204315185546875,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 2,
+      "t_geo": 1187005626.0849025,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.9294080460037417,
+        "L1": 3.9399051438425348,
+        "V1": 3.3776585047464445
+      },
+      "times": {
+        "H1": 1187005559.5314941,
+        "L1": 1187005559.7351074,
+        "V1": 1187005559.5056152
+      },
+      "network_snr": 6.509353048434368,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 2,
+      "t_geo": 1187005626.0849025,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.9369267509553225,
+        "L1": 3.6954829214440146,
+        "V1": 3.3741945857192492
+      },
+      "times": {
+        "H1": 1187005559.5314941,
+        "L1": 1187005560.0229492,
+        "V1": 1187005559.5056152
+      },
+      "network_snr": 6.367195251236538,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 2,
+      "t_geo": 1187005626.0849025,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.939083637562392,
+        "L1": 3.6975338408532434,
+        "V1": 3.373204923532057
+      },
+      "times": {
+        "H1": 1187005559.5314941,
+        "L1": 1187005560.0229492,
+        "V1": 1187005559.5056152
+      },
+      "network_snr": 6.369195228920811,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 3,
+      "t_geo": 1187005699.1678424,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.350732103634746,
+        "L1": 29.708811070890658,
+        "V1": 3.8492561946876105
+      },
+      "times": {
+        "H1": 1187005632.8203125,
+        "L1": 1187005632.8190918,
+        "V1": 1187005632.8989258
+      },
+      "network_snr": 32.03543893544617,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.1857280731201172,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 3,
+      "t_geo": 1187005699.1678424,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.379872069788287,
+        "L1": 8.928838123262626,
+        "V1": 3.8896665154674883
+      },
+      "times": {
+        "H1": 1187005632.600586,
+        "L1": 1187005632.8190918,
+        "V1": 1187005632.8989258
+      },
+      "network_snr": 10.678807760264652,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 219.91229057312012,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 3,
+      "t_geo": 1187005699.1678424,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.343623847617211,
+        "L1": 4.00859951030046,
+        "V1": 3.9012785541340103
+      },
+      "times": {
+        "H1": 1187005632.600586,
+        "L1": 1187005632.6257324,
+        "V1": 1187005632.8989258
+      },
+      "network_snr": 7.0820839108638065,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 26.552915573120117,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 3,
+      "t_geo": 1187005699.1678424,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.330996580022084,
+        "L1": 3.9855842470844967,
+        "V1": 3.905349622015336
+      },
+      "times": {
+        "H1": 1187005632.600586,
+        "L1": 1187005632.6257324,
+        "V1": 1187005632.8989258
+      },
+      "network_snr": 7.0635804544824445,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 3,
+      "t_geo": 1187005699.1678424,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.327394535177143,
+        "L1": 3.979008461273899,
+        "V1": 3.906513434245421
+      },
+      "times": {
+        "H1": 1187005632.600586,
+        "L1": 1187005632.6257324,
+        "V1": 1187005632.8989258
+      },
+      "network_snr": 7.058307092349428,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 4,
+      "t_geo": 1187005728.7640955,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.732148745199087,
+        "L1": 31.386653038529886,
+        "V1": 4.882603123969146
+      },
+      "times": {
+        "H1": 1187005662.416748,
+        "L1": 1187005662.4152832,
+        "V1": 1187005662.3999023
+      },
+      "network_snr": 33.86155809183516,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.04076957702636719,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 4,
+      "t_geo": 1187005728.7640955,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.5831336201111075,
+        "L1": 10.771016227622226,
+        "V1": 4.1580469605323245
+      },
+      "times": {
+        "H1": 1187005662.510498,
+        "L1": 1187005662.414795,
+        "V1": 1187005662.4003906
+      },
+      "network_snr": 12.422127792028473,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 8.085012435913086,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 4,
+      "t_geo": 1187005728.7640955,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.538913985822398,
+        "L1": 5.276418327375065,
+        "V1": 4.0602416975099365
+      },
+      "times": {
+        "H1": 1187005662.510498,
+        "L1": 1187005662.4143066,
+        "V1": 1187005662.378662
+      },
+      "network_snr": 8.05778463216485,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 13.155221939086914,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 4,
+      "t_geo": 1187005728.7640955,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.523532574595936,
+        "L1": 4.58625639038492,
+        "V1": 4.079516041778102
+      },
+      "times": {
+        "H1": 1187005662.510498,
+        "L1": 1187005662.2148438,
+        "V1": 1187005662.378662
+      },
+      "network_snr": 7.624863655627024,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 107.92255401611328,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "rep": 4,
+      "t_geo": 1187005728.7640955,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.519147105637886,
+        "L1": 4.593602060110899,
+        "V1": 4.085027199329851
+      },
+      "times": {
+        "H1": 1187005662.510498,
+        "L1": 1187005662.2148438,
+        "V1": 1187005662.378662
+      },
+      "network_snr": 7.6296341765719715,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 107.92255401611328,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 0,
+      "t_geo": 1187005572.6162963,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.171625113571315,
+        "L1": 30.163565670748042,
+        "V1": 4.804067504112813
+      },
+      "times": {
+        "H1": 1187005506.2687988,
+        "L1": 1187005506.2675781,
+        "V1": 1187005506.189209
+      },
+      "network_snr": 32.522683871965114,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.11038780212402344,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 0,
+      "t_geo": 1187005572.6162963,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.207196133098842,
+        "L1": 9.319458818912311,
+        "V1": 4.886362006825997
+      },
+      "times": {
+        "H1": 1187005505.868164,
+        "L1": 1187005506.2675781,
+        "V1": 1187005506.189209
+      },
+      "network_snr": 11.332667190097698,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 55.883169174194336,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 0,
+      "t_geo": 1187005572.6162963,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.2229139521046735,
+        "L1": 3.506112269216045,
+        "V1": 4.910308494120913
+      },
+      "times": {
+        "H1": 1187005505.868164,
+        "L1": 1187005506.3344727,
+        "V1": 1187005506.189209
+      },
+      "network_snr": 7.36457432569348,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 344.8619842529297,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 0,
+      "t_geo": 1187005572.6162963,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.228418449183574,
+        "L1": 3.4783639499263215,
+        "V1": 4.918734242149248
+      },
+      "times": {
+        "H1": 1187005505.868164,
+        "L1": 1187005506.3344727,
+        "V1": 1187005506.189209
+      },
+      "network_snr": 7.3601959820669585,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 344.8619842529297,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 0,
+      "t_geo": 1187005572.6162963,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.229991471477833,
+        "L1": 3.4704805466388278,
+        "V1": 4.921145804685213
+      },
+      "times": {
+        "H1": 1187005505.868164,
+        "L1": 1187005506.3344727,
+        "V1": 1187005506.189209
+      },
+      "network_snr": 7.35899035903327,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 344.8619842529297,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 1,
+      "t_geo": 1187005630.7740316,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 10.784161906278841,
+        "L1": 30.204947599089333,
+        "V1": 4.500240111805956
+      },
+      "times": {
+        "H1": 1187005564.4265137,
+        "L1": 1187005564.425293,
+        "V1": 1187005564.4016113
+      },
+      "network_snr": 32.38655845483548,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.14495849609375,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 1,
+      "t_geo": 1187005630.7740316,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.014308447175645,
+        "L1": 9.410286653355696,
+        "V1": 3.7253804952910556
+      },
+      "times": {
+        "H1": 1187005564.3598633,
+        "L1": 1187005564.4257812,
+        "V1": 1187005564.0947266
+      },
+      "network_snr": 10.887911968880218,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 67.28363037109375,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 1,
+      "t_geo": 1187005630.7740316,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.9555196584343406,
+        "L1": 3.9201533068284036,
+        "V1": 3.727658677676862
+      },
+      "times": {
+        "H1": 1187005564.359375,
+        "L1": 1187005564.8457031,
+        "V1": 1187005564.0947266
+      },
+      "network_snr": 6.701430961709432,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 1,
+      "t_geo": 1187005630.7740316,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.9373444961399753,
+        "L1": 3.9157895884096905,
+        "V1": 3.7284563512090543
+      },
+      "times": {
+        "H1": 1187005564.359375,
+        "L1": 1187005564.8457031,
+        "V1": 1187005564.0947266
+      },
+      "network_snr": 6.688607967645631,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 1,
+      "t_geo": 1187005630.7740316,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.932166533497853,
+        "L1": 3.914544737253343,
+        "V1": 3.7286842874013684
+      },
+      "times": {
+        "H1": 1187005564.359375,
+        "L1": 1187005564.8457031,
+        "V1": 1187005564.0947266
+      },
+      "network_snr": 6.684959286505208,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 2,
+      "t_geo": 1187005703.120313,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.918674219405329,
+        "L1": 29.748131502397516,
+        "V1": 4.734340896767292
+      },
+      "times": {
+        "H1": 1187005636.7729492,
+        "L1": 1187005636.7714844,
+        "V1": 1187005636.9284668
+      },
+      "network_snr": 32.3947543092868,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.05602836608886719,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 2,
+      "t_geo": 1187005703.120313,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.589818880734378,
+        "L1": 9.009082020090975,
+        "V1": 4.730725854598186
+      },
+      "times": {
+        "H1": 1187005636.7712402,
+        "L1": 1187005636.7719727,
+        "V1": 1187005636.9284668
+      },
+      "network_snr": 11.162874330298447,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 2.141237258911133,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 2,
+      "t_geo": 1187005703.120313,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.076773467472416,
+        "L1": 4.152267754471738,
+        "V1": 4.729695983003308
+      },
+      "times": {
+        "H1": 1187005636.5375977,
+        "L1": 1187005636.7766113,
+        "V1": 1187005636.9284668
+      },
+      "network_snr": 7.498762131282099,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 174.34453964233398,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 2,
+      "t_geo": 1187005703.120313,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.08234416369812,
+        "L1": 3.6520256809430713,
+        "V1": 4.72933584302547
+      },
+      "times": {
+        "H1": 1187005636.5375977,
+        "L1": 1187005636.78125,
+        "V1": 1187005636.9284668
+      },
+      "network_snr": 7.23667347344574,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 414.7670269012451,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 2,
+      "t_geo": 1187005703.120313,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.083942292546025,
+        "L1": 3.6080928718570764,
+        "V1": 4.7292329759060685
+      },
+      "times": {
+        "H1": 1187005636.5375977,
+        "L1": 1187005636.78125,
+        "V1": 1187005636.9284668
+      },
+      "network_snr": 7.215439235499756,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 414.7670269012451,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 3,
+      "t_geo": 1187005756.9610124,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 9.949855291129373,
+        "L1": 31.60550203489906,
+        "V1": 4.667422380229388
+      },
+      "times": {
+        "H1": 1187005690.6135254,
+        "L1": 1187005690.6120605,
+        "V1": 1187005690.5888672
+      },
+      "network_snr": 33.461802265686316,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.024080276489257812,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 3,
+      "t_geo": 1187005756.9610124,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.1420254510338586,
+        "L1": 10.789680559621022,
+        "V1": 4.05011479213183
+      },
+      "times": {
+        "H1": 1187005690.649414,
+        "L1": 1187005690.6125488,
+        "V1": 1187005690.727539
+      },
+      "network_snr": 12.24651016596651,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 35.42447090148926,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 3,
+      "t_geo": 1187005756.9610124,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.101368484446453,
+        "L1": 5.009971485585758,
+        "V1": 4.047595484274472
+      },
+      "times": {
+        "H1": 1187005690.649414,
+        "L1": 1187005690.6125488,
+        "V1": 1187005691.0197754
+      },
+      "network_snr": 7.635709982438573,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 35.42447090148926,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 3,
+      "t_geo": 1187005756.9610124,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.087520063662898,
+        "L1": 4.659173661339371,
+        "V1": 4.047741299554968
+      },
+      "times": {
+        "H1": 1187005690.649414,
+        "L1": 1187005690.197998,
+        "V1": 1187005691.0197754
+      },
+      "network_snr": 7.40269742090599,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 394.29163932800293,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 3,
+      "t_geo": 1187005756.9610124,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.083600222184504,
+        "L1": 4.659091005049052,
+        "V1": 4.0477829701723165
+      },
+      "times": {
+        "H1": 1187005690.649414,
+        "L1": 1187005690.197998,
+        "V1": 1187005691.0197754
+      },
+      "network_snr": 7.400504492368837,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 394.29163932800293,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 4,
+      "t_geo": 1187005768.8585112,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 12.17027756795603,
+        "L1": 29.311055401550213,
+        "V1": 4.1321171520666145
+      },
+      "times": {
+        "H1": 1187005702.5109863,
+        "L1": 1187005702.5095215,
+        "V1": 1187005701.9899902
+      },
+      "network_snr": 32.0051248551266,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.016927719116210938,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 4,
+      "t_geo": 1187005768.8585112,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.690074605075447,
+        "L1": 8.737861496586522,
+        "V1": 4.116991866093009
+      },
+      "times": {
+        "H1": 1187005702.5114746,
+        "L1": 1187005702.510498,
+        "V1": 1187005701.9899902
+      },
+      "network_snr": 10.737627548028422,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.47135353088378906,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 4,
+      "t_geo": 1187005768.8585112,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.302797412488149,
+        "L1": 4.357451984121585,
+        "V1": 4.112670564967243
+      },
+      "times": {
+        "H1": 1187005702.085205,
+        "L1": 1187005702.050293,
+        "V1": 1187005701.9899902
+      },
+      "network_snr": 7.37668709806698,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 33.46419334411621,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 4,
+      "t_geo": 1187005768.8585112,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.309402819892684,
+        "L1": 4.339247456767873,
+        "V1": 4.111158131646185
+      },
+      "times": {
+        "H1": 1187005702.085205,
+        "L1": 1187005702.050293,
+        "V1": 1187005701.9899902
+      },
+      "network_snr": 7.368964807798041,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 33.46419334411621,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "rep": 4,
+      "t_geo": 1187005768.8585112,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.3112901835870385,
+        "L1": 4.334062828791065,
+        "V1": 4.11072600994556
+      },
+      "times": {
+        "H1": 1187005702.085205,
+        "L1": 1187005702.050293,
+        "V1": 1187005701.9899902
+      },
+      "network_snr": 7.366776227078254,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 33.46419334411621,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 0,
+      "t_geo": 1187005530.7367911,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 10.423585943697612,
+        "L1": 30.96357987118269,
+        "V1": 4.5007601111086935
+      },
+      "times": {
+        "H1": 1187005464.3894043,
+        "L1": 1187005464.3879395,
+        "V1": 1187005464.3654785
+      },
+      "network_snr": 32.97955827391427,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 0.023603439331054688,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 0,
+      "t_geo": 1187005530.7367911,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 3.92179491034809,
+        "L1": 10.158733839040506,
+        "V1": 4.276518717937514
+      },
+      "times": {
+        "H1": 1187005464.6733398,
+        "L1": 1187005464.3884277,
+        "V1": 1187005463.8881836
+      },
+      "network_snr": 11.699100857594516,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 477.75959968566895,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 0,
+      "t_geo": 1187005530.7367911,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.9344463337984505,
+        "L1": 4.620159143796755,
+        "V1": 4.276811284363277
+      },
+      "times": {
+        "H1": 1187005464.6733398,
+        "L1": 1187005464.3894043,
+        "V1": 1187005463.8881836
+      },
+      "network_snr": 7.424072550130818,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 478.73616218566895,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 0,
+      "t_geo": 1187005530.7367911,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.938930699366966,
+        "L1": 3.564625928396973,
+        "V1": 4.276913933908036
+      },
+      "times": {
+        "H1": 1187005464.6733398,
+        "L1": 1187005464.5664062,
+        "V1": 1187005463.8881836
+      },
+      "network_snr": 6.820097203256874,
+      "active_ge4": [
+        "V1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 0,
+      "t_geo": 1187005530.7367911,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.940217289786818,
+        "L1": 3.5715384831401886,
+        "V1": 4.276943286279946
+      },
+      "times": {
+        "H1": 1187005464.6733398,
+        "L1": 1187005464.5664062,
+        "V1": 1187005463.8881836
+      },
+      "network_snr": 6.824473847949115,
+      "active_ge4": [
+        "V1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 1,
+      "t_geo": 1187005554.8879693,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.362725420280519,
+        "L1": 30.10961516614429,
+        "V1": 4.529901386437535
+      },
+      "times": {
+        "H1": 1187005488.5405273,
+        "L1": 1187005488.5393066,
+        "V1": 1187005488.2834473
+      },
+      "network_snr": 32.499545550681844,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.09989738464355469,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 1,
+      "t_geo": 1187005554.8879693,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.329779905032436,
+        "L1": 9.374480462351656,
+        "V1": 4.519367259856504
+      },
+      "times": {
+        "H1": 1187005488.8537598,
+        "L1": 1187005488.539795,
+        "V1": 1187005488.2834473
+      },
+      "network_snr": 11.271759330046862,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 233.86192321777344,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 1,
+      "t_geo": 1187005554.8879693,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.336705762940194,
+        "L1": 3.573150406210967,
+        "V1": 4.516363624094694
+      },
+      "times": {
+        "H1": 1187005488.8537598,
+        "L1": 1187005488.539795,
+        "V1": 1187005488.2834473
+      },
+      "network_snr": 7.209158139808701,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 546.5061664581299,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 1,
+      "t_geo": 1187005554.8879693,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.339132927422358,
+        "L1": 3.294817157919132,
+        "V1": 4.515312995693382
+      },
+      "times": {
+        "H1": 1187005488.8537598,
+        "L1": 1187005488.1835938,
+        "V1": 1187005488.2834473
+      },
+      "network_snr": 7.076153341684786,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 546.5061664581299,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 1,
+      "t_geo": 1187005554.8879693,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.339826698893632,
+        "L1": 3.2920419969108523,
+        "V1": 4.515012877553616
+      },
+      "times": {
+        "H1": 1187005488.8537598,
+        "L1": 1187005488.1835938,
+        "V1": 1187005488.2834473
+      },
+      "network_snr": 7.075095587363451,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 546.5061664581299,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 2,
+      "t_geo": 1187005565.4853659,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 9.18663521824311,
+        "L1": 30.041796864174625,
+        "V1": 4.028938449271688
+      },
+      "times": {
+        "H1": 1187005499.1379395,
+        "L1": 1187005499.1367188,
+        "V1": 1187005498.9509277
+      },
+      "network_snr": 31.672324993429463,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.10609626770019531,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 2,
+      "t_geo": 1187005565.4853659,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 3.9181104216428464,
+        "L1": 9.24560101394443,
+        "V1": 3.9735781153715166
+      },
+      "times": {
+        "H1": 1187005499.6049805,
+        "L1": 1187005499.137207,
+        "V1": 1187005498.9509277
+      },
+      "network_snr": 10.799168969147395,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 2,
+      "t_geo": 1187005565.4853659,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.9083521509954373,
+        "L1": 4.336438685104808,
+        "V1": 3.9577608847599883
+      },
+      "times": {
+        "H1": 1187005499.6049805,
+        "L1": 1187005499.269287,
+        "V1": 1187005498.9509277
+      },
+      "network_snr": 7.052927635159767,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 2,
+      "t_geo": 1187005565.4853659,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.904960359168235,
+        "L1": 4.282305325271975,
+        "V1": 3.95222485486433
+      },
+      "times": {
+        "H1": 1187005499.6049805,
+        "L1": 1187005499.269287,
+        "V1": 1187005498.9509277
+      },
+      "network_snr": 7.014765541978962,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 2,
+      "t_geo": 1187005565.4853659,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.9039935317938683,
+        "L1": 4.2668480607508865,
+        "V1": 3.9506431321153928
+      },
+      "times": {
+        "H1": 1187005499.6049805,
+        "L1": 1187005499.269287,
+        "V1": 1187005498.9509277
+      },
+      "network_snr": 7.003908839152069,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 3,
+      "t_geo": 1187005652.3075564,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 9.967727466145885,
+        "L1": 28.92303692150149,
+        "V1": 3.7340437587348707
+      },
+      "times": {
+        "H1": 1187005585.960205,
+        "L1": 1187005585.9587402,
+        "V1": 1187005586.3737793
+      },
+      "network_snr": 30.8194863421512,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.08630752563476562,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 3,
+      "t_geo": 1187005652.3075564,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.43327650874229,
+        "L1": 8.199021360106872,
+        "V1": 3.752490063000355
+      },
+      "times": {
+        "H1": 1187005585.737793,
+        "L1": 1187005585.958252,
+        "V1": 1187005586.3737793
+      },
+      "network_snr": 10.047839247289508,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 221.83752059936523,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 3,
+      "t_geo": 1187005652.3075564,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.398380939483809,
+        "L1": 3.542644584697743,
+        "V1": 3.7582669486295504
+      },
+      "times": {
+        "H1": 1187005585.737793,
+        "L1": 1187005586.0617676,
+        "V1": 1187005585.6757812
+      },
+      "network_snr": 6.783852592698635,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 3,
+      "t_geo": 1187005652.3075564,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.386270022815853,
+        "L1": 3.581318546513231,
+        "V1": 3.7603302770904805
+      },
+      "times": {
+        "H1": 1187005585.737793,
+        "L1": 1187005586.0617676,
+        "V1": 1187005585.6757812
+      },
+      "network_snr": 6.797447391297412,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 3,
+      "t_geo": 1187005652.3075564,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.382819638021292,
+        "L1": 3.592389737152629,
+        "V1": 3.7609201201630267
+      },
+      "times": {
+        "H1": 1187005585.737793,
+        "L1": 1187005586.0617676,
+        "V1": 1187005585.6757812
+      },
+      "network_snr": 6.801388987057842,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 4,
+      "t_geo": 1187005666.4971738,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 10.791073476891,
+        "L1": 28.106379362794137,
+        "V1": 3.7180721121175635
+      },
+      "times": {
+        "H1": 1187005600.1496582,
+        "L1": 1187005600.1484375,
+        "V1": 1187005600.491211
+      },
+      "network_snr": 30.335455953386738,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.16617774963378906,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 4,
+      "t_geo": 1187005666.4971738,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 3.6736704291601545,
+        "L1": 7.262051128009393,
+        "V1": 3.7169889108890017
+      },
+      "times": {
+        "H1": 1187005600.0314941,
+        "L1": 1187005600.1484375,
+        "V1": 1187005600.491211
+      },
+      "network_snr": 8.947024509387468,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 4,
+      "t_geo": 1187005666.4971738,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.6260436315269082,
+        "L1": 3.925615442421033,
+        "V1": 3.716704205118457
+      },
+      "times": {
+        "H1": 1187005600.0314941,
+        "L1": 1187005600.3000488,
+        "V1": 1187005600.491211
+      },
+      "network_snr": 6.509419265023306,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 4,
+      "t_geo": 1187005666.4971738,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.6109442581592943,
+        "L1": 3.920522382572971,
+        "V1": 3.716607161025854
+      },
+      "times": {
+        "H1": 1187005600.2053223,
+        "L1": 1187005600.3000488,
+        "V1": 1187005600.491211
+      },
+      "network_snr": 6.497890655988132,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "rep": 4,
+      "t_geo": 1187005666.4971738,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.6189162172612215,
+        "L1": 3.919076635959595,
+        "V1": 3.716579682067128
+      },
+      "times": {
+        "H1": 1187005600.2053223,
+        "L1": 1187005600.3000488,
+        "V1": 1187005600.491211
+      },
+      "network_snr": 6.501436825751277,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 0,
+      "t_geo": 1187005536.0421762,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 10.845449750997481,
+        "L1": 29.715023103480732,
+        "V1": 4.236695455513216
+      },
+      "times": {
+        "H1": 1187005469.6948242,
+        "L1": 1187005469.6933594,
+        "V1": 1187005469.239502
+      },
+      "network_snr": 31.914823620452164,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.15544891357421875,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 0,
+      "t_geo": 1187005536.0421762,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 3.946146786607927,
+        "L1": 8.962066154800715,
+        "V1": 4.2411773601422
+      },
+      "times": {
+        "H1": 1187005469.3925781,
+        "L1": 1187005469.6938477,
+        "V1": 1187005469.239502
+      },
+      "network_snr": 10.671377119409813,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 431.86092376708984,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 0,
+      "t_geo": 1187005536.0421762,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.9583196799943914,
+        "L1": 3.6952397155232726,
+        "V1": 4.242458156716624
+      },
+      "times": {
+        "H1": 1187005469.3925781,
+        "L1": 1187005469.2373047,
+        "V1": 1187005469.239502
+      },
+      "network_snr": 6.879065521980644,
+      "active_ge4": [
+        "V1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 0,
+      "t_geo": 1187005536.0421762,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.962595233999954,
+        "L1": 3.697626488477487,
+        "V1": 4.24290646198032
+      },
+      "times": {
+        "H1": 1187005469.3925781,
+        "L1": 1187005469.2373047,
+        "V1": 1187005469.239502
+      },
+      "network_snr": 6.883084910265445,
+      "active_ge4": [
+        "V1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 0,
+      "t_geo": 1187005536.0421762,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.963818246971483,
+        "L1": 3.6983200448898894,
+        "V1": 4.243034551717668
+      },
+      "times": {
+        "H1": 1187005469.3925781,
+        "L1": 1187005469.2373047,
+        "V1": 1187005469.239502
+      },
+      "network_snr": 6.884240586769785,
+      "active_ge4": [
+        "V1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 1,
+      "t_geo": 1187005597.0441813,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.41745679945485,
+        "L1": 29.70226946411132,
+        "V1": 3.6815399174954515
+      },
+      "times": {
+        "H1": 1187005530.6967773,
+        "L1": 1187005530.6953125,
+        "V1": 1187005530.265625
+      },
+      "network_snr": 32.033371150258446,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.11920928955078125,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 1,
+      "t_geo": 1187005597.0441813,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.4800863423093436,
+        "L1": 8.857878592471161,
+        "V1": 3.663023998144841
+      },
+      "times": {
+        "H1": 1187005530.6982422,
+        "L1": 1187005530.6953125,
+        "V1": 1187005530.265625
+      },
+      "network_snr": 10.580686726507434,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 1.5840530395507812,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 1,
+      "t_geo": 1187005597.0441813,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.823734507333838,
+        "L1": 4.075785621929399,
+        "V1": 3.657756574992085
+      },
+      "times": {
+        "H1": 1187005530.8000488,
+        "L1": 1187005530.704834,
+        "V1": 1187005530.265625
+      },
+      "network_snr": 6.679233277884506,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 1,
+      "t_geo": 1187005597.0441813,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.808290894970478,
+        "L1": 3.857249140239466,
+        "V1": 3.6559153918214493
+      },
+      "times": {
+        "H1": 1187005530.8000488,
+        "L1": 1187005530.2731934,
+        "V1": 1187005530.265625
+      },
+      "network_snr": 6.538131829716355,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 1,
+      "t_geo": 1187005597.0441813,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.803893539709395,
+        "L1": 3.8560100702025606,
+        "V1": 3.6553895699607253
+      },
+      "times": {
+        "H1": 1187005530.8000488,
+        "L1": 1187005530.2731934,
+        "V1": 1187005530.265625
+      },
+      "network_snr": 6.534546092202892,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 2,
+      "t_geo": 1187005605.1400812,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.720203817479565,
+        "L1": 28.915581865388273,
+        "V1": 5.098243656755129
+      },
+      "times": {
+        "H1": 1187005538.7927246,
+        "L1": 1187005538.7912598,
+        "V1": 1187005538.7687988
+      },
+      "network_snr": 31.61433441527557,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 0.026226043701171875,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 2,
+      "t_geo": 1187005605.1400812,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.2753203508524145,
+        "L1": 8.46517542638936,
+        "V1": 3.3349408792213637
+      },
+      "times": {
+        "H1": 1187005538.5234375,
+        "L1": 1187005538.7922363,
+        "V1": 1187005538.4978027
+      },
+      "network_snr": 10.052829938373614,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 270.14923095703125,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 2,
+      "t_geo": 1187005605.1400812,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.25905590781254,
+        "L1": 3.845799889655348,
+        "V1": 3.337209438585176
+      },
+      "times": {
+        "H1": 1187005538.5234375,
+        "L1": 1187005538.3566895,
+        "V1": 1187005538.4978027
+      },
+      "network_snr": 6.638275442773369,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 2,
+      "t_geo": 1187005605.1400812,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.25338521372212,
+        "L1": 3.8474169490585464,
+        "V1": 3.3380057196304795
+      },
+      "times": {
+        "H1": 1187005538.5234375,
+        "L1": 1187005538.3566895,
+        "V1": 1187005538.4978027
+      },
+      "network_snr": 6.635976577753928,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 2,
+      "t_geo": 1187005605.1400812,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.251767108926781,
+        "L1": 3.9564467046272638,
+        "V1": 3.338233445930262
+      },
+      "times": {
+        "H1": 1187005538.5234375,
+        "L1": 1187005538.78833,
+        "V1": 1187005538.4978027
+      },
+      "network_snr": 6.698865322921111,
+      "active_ge4": [
+        "H1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 3,
+      "t_geo": 1187005802.4338775,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 9.977839662992553,
+        "L1": 30.50180212825333,
+        "V1": 4.382392578686133
+      },
+      "times": {
+        "H1": 1187005736.0864258,
+        "L1": 1187005736.084961,
+        "V1": 1187005735.7072754
+      },
+      "network_snr": 32.39016181072935,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.0030994415283203125,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 3,
+      "t_geo": 1187005802.4338775,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.040544909282894,
+        "L1": 9.66717885550651,
+        "V1": 4.363852460672642
+      },
+      "times": {
+        "H1": 1187005735.958252,
+        "L1": 1187005736.084961,
+        "V1": 1187005735.7072754
+      },
+      "network_snr": 11.350046629278786,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 128.17692756652832,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 3,
+      "t_geo": 1187005802.4338775,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.9940527747055845,
+        "L1": 4.3395887944058265,
+        "V1": 4.358566269994405
+      },
+      "times": {
+        "H1": 1187005735.958252,
+        "L1": 1187005735.7663574,
+        "V1": 1187005735.7072754
+      },
+      "network_snr": 7.333593143991487,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 36.59224510192871,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 3,
+      "t_geo": 1187005802.4338775,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.977789305936614,
+        "L1": 4.334690852327163,
+        "V1": 4.356717263569277
+      },
+      "times": {
+        "H1": 1187005735.958252,
+        "L1": 1187005735.7663574,
+        "V1": 1187005735.7072754
+      },
+      "network_snr": 7.320747083621661,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 36.59224510192871,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 3,
+      "t_geo": 1187005802.4338775,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.9731434507858894,
+        "L1": 4.333298225582355,
+        "V1": 4.356189086719531
+      },
+      "times": {
+        "H1": 1187005735.958252,
+        "L1": 1187005735.7663574,
+        "V1": 1187005735.7072754
+      },
+      "network_snr": 7.3170845117172405,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 36.59224510192871,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 4,
+      "t_geo": 1187005807.5723646,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 9.096235232834704,
+        "L1": 31.17415549618628,
+        "V1": 4.815031495365364
+      },
+      "times": {
+        "H1": 1187005741.2248535,
+        "L1": 1187005741.2233887,
+        "V1": 1187005741.1235352
+      },
+      "network_snr": 32.82916378180878,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.0059604644775390625,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 4,
+      "t_geo": 1187005807.5723646,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 3.599171921348104,
+        "L1": 10.33599718560413,
+        "V1": 4.689903912193274
+      },
+      "times": {
+        "H1": 1187005741.3518066,
+        "L1": 1187005741.2233887,
+        "V1": 1187005741.1235352
+      },
+      "network_snr": 11.90722784890937,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 77.36372947692871,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 4,
+      "t_geo": 1187005807.5723646,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.606733336291953,
+        "L1": 4.599434945680728,
+        "V1": 4.655080294154752
+      },
+      "times": {
+        "H1": 1187005741.3518066,
+        "L1": 1187005741.222412,
+        "V1": 1187005741.1235352
+      },
+      "network_snr": 7.472154958490667,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 76.38716697692871,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 4,
+      "t_geo": 1187005807.5723646,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.6095008349932938,
+        "L1": 3.9222213943204682,
+        "V1": 4.6429929495787094
+      },
+      "times": {
+        "H1": 1187005741.3518066,
+        "L1": 1187005741.6586914,
+        "V1": 1187005741.1235352
+      },
+      "network_snr": 7.068924987133482,
+      "active_ge4": [
+        "V1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "rep": 4,
+      "t_geo": 1187005807.5723646,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.610303036983873,
+        "L1": 3.9293099028113243,
+        "V1": 4.639549138180766
+      },
+      "times": {
+        "H1": 1187005741.3518066,
+        "L1": 1187005741.6586914,
+        "V1": 1187005741.1235352
+      },
+      "network_snr": 7.071009866828076,
+      "active_ge4": [
+        "V1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 0,
+      "t_geo": 1187005567.5304801,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.44306718834441,
+        "L1": 30.429164857021835,
+        "V1": 4.109110502745602
+      },
+      "times": {
+        "H1": 1187005501.1835938,
+        "L1": 1187005501.1816406,
+        "V1": 1187005500.6860352
+      },
+      "network_snr": 32.76831777336992,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.6248950958251953,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 0,
+      "t_geo": 1187005567.5304801,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.5798958821001206,
+        "L1": 9.732265533599715,
+        "V1": 4.106691416219555
+      },
+      "times": {
+        "H1": 1187005501.184082,
+        "L1": 1187005501.1816406,
+        "V1": 1187005500.7631836
+      },
+      "network_snr": 11.513355422960847,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 1.1131763458251953,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 0,
+      "t_geo": 1187005567.5304801,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.8360801929720334,
+        "L1": 4.226702773575411,
+        "V1": 4.108367551537597
+      },
+      "times": {
+        "H1": 1187005501.1403809,
+        "L1": 1187005501.1811523,
+        "V1": 1187005500.7631836
+      },
+      "network_snr": 7.032724331408808,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 395.48277854919434,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 0,
+      "t_geo": 1187005567.5304801,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.8313656109431973,
+        "L1": 4.117077496948998,
+        "V1": 4.10895430585126
+      },
+      "times": {
+        "H1": 1187005501.1403809,
+        "L1": 1187005501.4570312,
+        "V1": 1187005500.7631836
+      },
+      "network_snr": 6.9651414234152895,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 671.3616847991943,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 0,
+      "t_geo": 1187005567.5304801,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.830100950655195,
+        "L1": 4.108502199171516,
+        "V1": 4.10912196012079
+      },
+      "times": {
+        "H1": 1187005501.1403809,
+        "L1": 1187005501.4570312,
+        "V1": 1187005500.7631836
+      },
+      "network_snr": 6.959478924169103,
+      "active_ge4": [
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "L1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 671.3616847991943,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 1,
+      "t_geo": 1187005595.4884937,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 11.817923239996603,
+        "L1": 29.75642985803152,
+        "V1": 3.843949928682787
+      },
+      "times": {
+        "H1": 1187005529.140625,
+        "L1": 1187005529.1396484,
+        "V1": 1187005528.717041
+      },
+      "network_snr": 32.24723831053788,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.3681182861328125,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 1,
+      "t_geo": 1187005595.4884937,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 5.203377656282627,
+        "L1": 8.912107415250247,
+        "V1": 3.849805511833431
+      },
+      "times": {
+        "H1": 1187005529.140625,
+        "L1": 1187005529.1396484,
+        "V1": 1187005528.717041
+      },
+      "network_snr": 11.014617564573125,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.3681182861328125,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 1,
+      "t_geo": 1187005595.4884937,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.719688390869542,
+        "L1": 4.068616632814427,
+        "V1": 3.8514805477090652
+      },
+      "times": {
+        "H1": 1187005529.6113281,
+        "L1": 1187005529.5932617,
+        "V1": 1187005528.717041
+      },
+      "network_snr": 6.724851332138516,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 1,
+      "t_geo": 1187005595.4884937,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.7150136416936173,
+        "L1": 4.079431966732351,
+        "V1": 3.852067021092578
+      },
+      "times": {
+        "H1": 1187005529.6113281,
+        "L1": 1187005529.5932617,
+        "V1": 1187005528.717041
+      },
+      "network_snr": 6.72915387431113,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 1,
+      "t_geo": 1187005595.4884937,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.713678791164081,
+        "L1": 4.082541442530121,
+        "V1": 3.8522346049825416
+      },
+      "times": {
+        "H1": 1187005529.6113281,
+        "L1": 1187005529.5932617,
+        "V1": 1187005528.717041
+      },
+      "network_snr": 6.730398669153472,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 2,
+      "t_geo": 1187005596.408725,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 10.261893526148713,
+        "L1": 29.880703739585687,
+        "V1": 4.785457127804064
+      },
+      "times": {
+        "H1": 1187005530.0617676,
+        "L1": 1187005530.0598145,
+        "V1": 1187005530.038086
+      },
+      "network_snr": 31.95408447502375,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 0.15044212341308594,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 2,
+      "t_geo": 1187005596.408725,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 3.7743331161945073,
+        "L1": 9.103368239544967,
+        "V1": 3.9015727073773556
+      },
+      "times": {
+        "H1": 1187005529.6108398,
+        "L1": 1187005530.0598145,
+        "V1": 1187005529.9902344
+      },
+      "network_snr": 10.599017566157274,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 2,
+      "t_geo": 1187005596.408725,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.756357537485545,
+        "L1": 4.097327902558735,
+        "V1": 3.9228329319411497
+      },
+      "times": {
+        "H1": 1187005529.6113281,
+        "L1": 1187005529.5932617,
+        "V1": 1187005529.9902344
+      },
+      "network_snr": 6.803450308661983,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 2,
+      "t_geo": 1187005596.408725,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.7507997956110732,
+        "L1": 4.0900276103965725,
+        "V1": 3.9302740211064675
+      },
+      "times": {
+        "H1": 1187005529.6113281,
+        "L1": 1187005529.5932617,
+        "V1": 1187005529.9902344
+      },
+      "network_snr": 6.800285202956326,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 2,
+      "t_geo": 1187005596.408725,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.7492154601245717,
+        "L1": 4.087945762052145,
+        "V1": 3.9324000475808583
+      },
+      "times": {
+        "H1": 1187005529.6113281,
+        "L1": 1187005529.5932617,
+        "V1": 1187005529.9902344
+      },
+      "network_snr": 6.799388741212782,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 3,
+      "t_geo": 1187005607.641414,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 12.757469570340714,
+        "L1": 30.503234175583238,
+        "V1": 3.8563503586547205
+      },
+      "times": {
+        "H1": 1187005541.2939453,
+        "L1": 1187005541.2927246,
+        "V1": 1187005541.6308594
+      },
+      "network_snr": 33.28771189338995,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.13136863708496094,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 3,
+      "t_geo": 1187005607.641414,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 5.113890573441251,
+        "L1": 9.784404188053818,
+        "V1": 3.8459721887614515
+      },
+      "times": {
+        "H1": 1187005541.2939453,
+        "L1": 1187005541.2927246,
+        "V1": 1187005541.6308594
+      },
+      "network_snr": 11.690934273575527,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.13136863708496094,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 3,
+      "t_geo": 1187005607.641414,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 3.6596843985312297,
+        "L1": 4.217078711266754,
+        "V1": 3.8430525955205415
+      },
+      "times": {
+        "H1": 1187005540.850586,
+        "L1": 1187005541.293213,
+        "V1": 1187005541.6308594
+      },
+      "network_snr": 6.778354963101986,
+      "active_ge4": [
+        "L1"
+      ],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 3,
+      "t_geo": 1187005607.641414,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 3.655283027004795,
+        "L1": 3.99669419468057,
+        "V1": 3.8420355434348985
+      },
+      "times": {
+        "H1": 1187005540.850586,
+        "L1": 1187005541.5114746,
+        "V1": 1187005541.6308594
+      },
+      "network_snr": 6.640474050120202,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 3,
+      "t_geo": 1187005607.641414,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 3.6540303427254646,
+        "L1": 3.9922322150864185,
+        "V1": 3.841745415298767
+      },
+      "times": {
+        "H1": 1187005540.850586,
+        "L1": 1187005541.5114746,
+        "V1": 1187005541.6308594
+      },
+      "network_snr": 6.63693179418783,
+      "active_ge4": [],
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 4,
+      "t_geo": 1187005761.158125,
+      "r": 1.0,
+      "A": 4.361597660797447,
+      "single_snr": {
+        "H1": 10.901974273640226,
+        "L1": 29.791972705405453,
+        "V1": 4.370897549513365
+      },
+      "times": {
+        "H1": 1187005694.8105469,
+        "L1": 1187005694.8093262,
+        "V1": 1187005694.9677734
+      },
+      "network_snr": 32.02373223300305,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": true,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 0.2224445343017578,
+      "pass": true,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 4,
+      "t_geo": 1187005761.158125,
+      "r": 0.3,
+      "A": 1.308479298239234,
+      "single_snr": {
+        "H1": 4.183147401538113,
+        "L1": 9.132412120329747,
+        "V1": 4.373656739709204
+      },
+      "times": {
+        "H1": 1187005694.878418,
+        "L1": 1187005694.8103027,
+        "V1": 1187005694.9677734
+      },
+      "network_snr": 10.955754040473183,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 66.67208671569824,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 4,
+      "t_geo": 1187005761.158125,
+      "r": 0.1,
+      "A": 0.4361597660797447,
+      "single_snr": {
+        "H1": 4.107618760603307,
+        "L1": 4.3151471879280585,
+        "V1": 4.374467571378082
+      },
+      "times": {
+        "H1": 1187005694.878418,
+        "L1": 1187005695.1914062,
+        "V1": 1187005694.9677734
+      },
+      "network_snr": 7.39114292034609,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 113.28840255737305,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 4,
+      "t_geo": 1187005761.158125,
+      "r": 0.03,
+      "A": 0.1308479298239234,
+      "single_snr": {
+        "H1": 4.08123993379102,
+        "L1": 4.3288636683944155,
+        "V1": 4.3747537219792605
+      },
+      "times": {
+        "H1": 1187005694.878418,
+        "L1": 1187005695.1914062,
+        "V1": 1187005694.9677734
+      },
+      "network_snr": 7.384717339525398,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 113.28840255737305,
+      "pass": false,
+      "quality_pass": true
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "rep": 4,
+      "t_geo": 1187005761.158125,
+      "r": 0.01,
+      "A": 0.04361597660797447,
+      "single_snr": {
+        "H1": 4.073708621956385,
+        "L1": 4.332784889450779,
+        "V1": 4.37483570394907
+      },
+      "times": {
+        "H1": 1187005694.878418,
+        "L1": 1187005695.1914062,
+        "V1": 1187005694.9677734
+      },
+      "network_snr": 7.382906898465017,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 113.28840255737305,
+      "pass": false,
+      "quality_pass": true
+    }
+  ],
+  "injection_started_utc": "2026-09-08T15:33:27.345196+00:00",
+  "injection_finished_utc": "2026-09-08T15:38:32.358708+00:00",
+  "search": [
+    {
+      "window": "W1",
+      "delta_t_s": 1.7,
+      "gps_nominal": 1187008880.7457,
+      "alpha_abs": 2.9e-08,
+      "single": {
+        "H1": {
+          "snr": 4.372410148802736,
+          "time": 1187008814.058838,
+          "chi2": 24.65609115504719,
+          "chi2_reduced": 0.8218697051682397,
+          "autochisq": 22.92860032739014,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 0.7165187602309419,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "L1": {
+          "snr": 4.016115386478583,
+          "time": 1187008814.6015625,
+          "chi2": 36.09353166228993,
+          "chi2_reduced": 1.203117722076331,
+          "autochisq": 41.833193569994734,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.3072872990623354,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "V1": {
+          "snr": 4.089362353425121,
+          "time": 1187008814.1245117,
+          "chi2": 23.369299018051656,
+          "chi2_reduced": 0.7789766339350552,
+          "autochisq": 23.579944229702814,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 0.736873257178213,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        }
+      },
+      "times": {
+        "H1": 1187008814.058838,
+        "L1": 1187008814.6015625,
+        "V1": 1187008814.1245117
+      },
+      "network": 7.20902474433774,
+      "active_ge4": [
+        "H1",
+        "L1",
+        "V1"
+      ],
+      "network_pass": false,
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 90.85869789123535,
+      "coincidence_pairs": [
+        {
+          "pair": [
+            "H1",
+            "L1"
+          ],
+          "residual_s": 0.5460178852081299,
+          "residual_ms": 546.0178852081299,
+          "pass": false
+        },
+        {
+          "pair": [
+            "H1",
+            "V1"
+          ],
+          "residual_s": 0.09085869789123535,
+          "residual_ms": 90.85869789123535,
+          "pass": false
+        },
+        {
+          "pair": [
+            "L1",
+            "V1"
+          ],
+          "residual_s": 0.45515918731689453,
+          "residual_ms": 455.15918731689453,
+          "pass": false
+        }
+      ],
+      "chi2_autochisq_veto_pass": true,
+      "all_active_chi2_autochisq_veto_pass": true,
+      "candidate_pass": false,
+      "quality_pass": true,
+      "best_delta_t_s": 1.8266651630401611
+    },
+    {
+      "window": "W2",
+      "delta_t_s": 10.0,
+      "gps_nominal": 1187008872.4457,
+      "alpha_abs": 7e-08,
+      "single": {
+        "H1": {
+          "snr": 3.861956502222376,
+          "time": 1187008806.244629,
+          "chi2": 20.201673762747134,
+          "chi2_reduced": 0.6733891254249045,
+          "autochisq": 35.77269736084155,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.1178967925262984,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "L1": {
+          "snr": 3.944257338104114,
+          "time": 1187008805.7036133,
+          "chi2": 18.480419683597646,
+          "chi2_reduced": 0.6160139894532548,
+          "autochisq": 26.88674640098195,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 0.8402108250306859,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "V1": {
+          "snr": 3.6863892810637386,
+          "time": 1187008805.614746,
+          "chi2": 26.838525006687373,
+          "chi2_reduced": 0.8946175002229124,
+          "autochisq": 30.33312358484657,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 0.9479101120264554,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        }
+      },
+      "times": {
+        "H1": 1187008806.244629,
+        "L1": 1187008805.7036133,
+        "V1": 1187008805.614746
+      },
+      "network": 6.637871639749255,
+      "active_ge4": [],
+      "network_pass": false,
+      "two_detector_pass": false,
+      "coincidence_pass": false,
+      "coincidence_pair": null,
+      "coincidence_residual_ms": null,
+      "coincidence_pairs": [],
+      "chi2_autochisq_veto_pass": false,
+      "all_active_chi2_autochisq_veto_pass": true,
+      "candidate_pass": false,
+      "quality_pass": true,
+      "best_delta_t_s": 10.233977794647217
+    },
+    {
+      "window": "W3",
+      "delta_t_s": 100.0,
+      "gps_nominal": 1187008782.4457,
+      "alpha_abs": 2.2e-07,
+      "single": {
+        "H1": {
+          "snr": 4.460723478213997,
+          "time": 1187008716.0720215,
+          "chi2": 45.36404845330965,
+          "chi2_reduced": 1.512134948443655,
+          "autochisq": 44.881785173506444,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.4025557866720764,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "L1": {
+          "snr": 4.056991967376014,
+          "time": 1187008715.7832031,
+          "chi2": 20.18685165923167,
+          "chi2_reduced": 0.6728950553077223,
+          "autochisq": 37.00571112130334,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.1564284725407294,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "V1": {
+          "snr": 3.577836761191043,
+          "time": 1187008715.8496094,
+          "chi2": 28.509401390947314,
+          "chi2_reduced": 0.9503133796982438,
+          "autochisq": 37.49982441721568,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.17186951303799,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        }
+      },
+      "times": {
+        "H1": 1187008716.0720215,
+        "L1": 1187008715.7832031,
+        "V1": 1187008715.8496094
+      },
+      "network": 7.011287589464084,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "network_pass": false,
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 285.5827808380127,
+      "coincidence_pairs": [
+        {
+          "pair": [
+            "H1",
+            "L1"
+          ],
+          "residual_s": 0.2855827808380127,
+          "residual_ms": 285.5827808380127,
+          "pass": false
+        }
+      ],
+      "chi2_autochisq_veto_pass": true,
+      "all_active_chi2_autochisq_veto_pass": true,
+      "candidate_pass": false,
+      "quality_pass": true,
+      "best_delta_t_s": 100.18674898147583
+    },
+    {
+      "window": "W0",
+      "delta_t_s": 0.1,
+      "gps_nominal": 1187008882.3457,
+      "alpha_abs": 7e-09,
+      "single": {
+        "H1": {
+          "snr": 4.176606743228576,
+          "time": 1187008815.7956543,
+          "chi2": 35.132104875100566,
+          "chi2_reduced": 1.1710701625033522,
+          "autochisq": 34.992707342558916,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.0935221044549661,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "L1": {
+          "snr": 10.870743712634152,
+          "time": 1187008815.8874512,
+          "chi2": 676.9181286601261,
+          "chi2_reduced": 22.5639376220042,
+          "autochisq": 1066.302965280458,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 33.32196766501431,
+          "chi2_pass": false,
+          "autochisq_pass": false,
+          "veto_pass": false
+        },
+        "V1": {
+          "snr": 3.6543897039791062,
+          "time": 1187008815.605957,
+          "chi2": 18.228494195577646,
+          "chi2_reduced": 0.6076164731859215,
+          "autochisq": 19.587885750943695,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 0.6121214297169905,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        }
+      },
+      "times": {
+        "H1": 1187008815.7956543,
+        "L1": 1187008815.8874512,
+        "V1": 1187008815.605957
+      },
+      "network": 12.205395399654444,
+      "active_ge4": [
+        "H1",
+        "L1"
+      ],
+      "network_pass": true,
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "L1"
+      ],
+      "coincidence_residual_ms": 95.09086608886719,
+      "coincidence_pairs": [
+        {
+          "pair": [
+            "H1",
+            "L1"
+          ],
+          "residual_s": 0.09509086608886719,
+          "residual_ms": 95.09086608886719,
+          "pass": false
+        }
+      ],
+      "chi2_autochisq_veto_pass": false,
+      "all_active_chi2_autochisq_veto_pass": false,
+      "candidate_pass": false,
+      "quality_pass": true,
+      "best_delta_t_s": 0.32528066635131836
+    },
+    {
+      "window": "W4",
+      "delta_t_s": 3600.0,
+      "gps_nominal": 1187005282.4457,
+      "alpha_abs": 1.3e-06,
+      "single": {
+        "H1": {
+          "snr": 4.179122750569896,
+          "time": 1187005216.03833,
+          "chi2": 30.10083365502057,
+          "chi2_reduced": 1.003361121834019,
+          "autochisq": 33.001413373354154,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.0312941679173173,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "L1": {
+          "snr": 3.8680260022888397,
+          "time": 1187005216.1262207,
+          "chi2": 12.2410701790324,
+          "chi2_reduced": 0.4080356726344133,
+          "autochisq": 22.98288638041471,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 0.7182151993879596,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        },
+        "V1": {
+          "snr": 4.680806157516472,
+          "time": 1187005216.4511719,
+          "chi2": 57.39543255683353,
+          "chi2_reduced": 1.9131810852277844,
+          "autochisq": 58.206193792622976,
+          "autochisq_dof": 32,
+          "autochisq_reduced": 1.818943556019468,
+          "chi2_pass": true,
+          "autochisq_pass": true,
+          "veto_pass": true
+        }
+      },
+      "times": {
+        "H1": 1187005216.03833,
+        "L1": 1187005216.1262207,
+        "V1": 1187005216.4511719
+      },
+      "network": 7.371338983044912,
+      "active_ge4": [
+        "H1",
+        "V1"
+      ],
+      "network_pass": false,
+      "two_detector_pass": true,
+      "coincidence_pass": false,
+      "coincidence_pair": [
+        "H1",
+        "V1"
+      ],
+      "coincidence_residual_ms": 436.47241592407227,
+      "coincidence_pairs": [
+        {
+          "pair": [
+            "H1",
+            "V1"
+          ],
+          "residual_s": 0.43647241592407227,
+          "residual_ms": 436.47241592407227,
+          "pass": false
+        }
+      ],
+      "chi2_autochisq_veto_pass": true,
+      "all_active_chi2_autochisq_veto_pass": true,
+      "candidate_pass": false,
+      "quality_pass": true,
+      "best_delta_t_s": 3599.8850231170654
+    }
+  ],
+  "search_order": [
+    "W1",
+    "W2",
+    "W3",
+    "W0",
+    "W4"
+  ],
+  "windows_opened_utc": "2026-09-08T15:38:32.358789+00:00",
+  "seed": 230908,
+  "corrections": {
+    "coincidence": "At least one active detector pair must agree after geocentric delay correction within 30 ms.",
+    "injection_filtering": "Cached exact linear unit-injection matched-filter response; same signal and PSD as original branch.",
+    "veto_pair_scope": "Chi-square/autocorrelation veto applied to the pair establishing coincidence.",
+    "coherent_network_statistic": "Not used as a decision statistic in this run; remains a required next-stage improvement.",
+    "injection_efficiency_scope": "Network SNR, two-detector, pairwise timing, and data quality; vetoes not rerun for every injection."
+  },
+  "veto_settings": {
+    "power_chisq_bins": 16,
+    "chi2_reduced_max": 5.0,
+    "autochisq_stride_samples": 16,
+    "autochisq_points": 8,
+    "autochisq_reduced_max": 5.0
+  },
+  "response_cache_keys": [
+    [
+      "H1",
+      599519,
+      81920
+    ],
+    [
+      "H1",
+      599519,
+      81921
+    ],
+    [
+      "L1",
+      599519,
+      81920
+    ],
+    [
+      "L1",
+      599519,
+      81921
+    ],
+    [
+      "V1",
+      599519,
+      81920
+    ],
+    [
+      "V1",
+      599519,
+      81921
+    ]
+  ]
+}
